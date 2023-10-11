@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PolicyActivity">
+    <ImageView
+        android:scaleType="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/img_logo_onboarding"/>
+    <TextView
+        android:id="@+id/policyTv"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read terms &amp; conditions and privacy policy"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/point_regualar"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/policyDetailTv"
+        android:layout_below="@id/policyTv"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/point_regualar"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/getStartedImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_button_policy"/>
+
+</RelativeLayout>
